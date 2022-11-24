@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Island+Moments&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.stop{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    border-radius: 5px;
+    flex-direction: column;
+    position: relative;
+
+}
+.con{
+    display: flex;
+    background-color: blueviolet;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: none
+    ;
+}
+.row{
+    display: flex;
+    padding: 30px;
+}
+.para{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 5px;
+    align-items: center;
+    width: 100px;
+}
+.button button{
+    width: 90px;
+    font-size: large;
+    color: #000;
+    border-radius: 3px;
+    border: none;
+}
+.btnstart{
+    background-color: green; 
+    cursor: pointer;
+    transition: all .4s;
+}
+.btnstop{
+    background-color: red;
+    cursor: pointer;
+    transition: all .4s;
+}
+.btnreset{
+    background-color: blue;
+    cursor: pointer;
+    transition: all .4s;
+}
+.btnstart-active{
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: green; 
+    opacity: .5;
+}
+.btnstop-active{
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: red; 
+    opacity: .5;
+}

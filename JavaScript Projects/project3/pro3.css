@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Island+Moments&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    background-image: url(/Images/background-board-rainbow-texture-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.analog{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 50%;
+    border:5px  rgb(116, 110, 115);
+    box-shadow: .1px 0 5px 5px;
+    position: relative;
+    background-image: url(/Images/pexels-min-an-1006115.jpg);
+    background-size: cover;
+}
+.analog::after{
+    content: "";
+    position:absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.analog::before{
+    content: "Nature's Beauty";
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: bisque;
+    opacity: .5;
+   
+}
+.number{
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: large;
+    opacity: .5;
+}
+.number-1{
+    transform: rotate(30deg);
+}
+.number-2{
+    transform: rotate(60deg);
+}
+.number-3{
+    transform: rotate(90deg);
+}
+.number-4{
+    transform: rotate(120deg);
+}
+.number-5{
+    transform: rotate(150deg);
+}
+.number-6{
+    transform: rotate(180deg);
+}
+.number-7{
+    transform: rotate(210deg);
+}
+.number-8{
+    transform: rotate(240deg);
+}
+.number-9{
+    transform: rotate(270deg);
+}
+.number-10{
+    transform: rotate(300deg);
+}
+.number-11{
+    transform: rotate(330deg);
+}
+.needle{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    z-index: 8;
+    transform: translate(-50%,0%)rotate(calc(var(--rotate)*1deg));;
+
+}
+.needle-hrs{
+    height: 30%;
+    width: 5px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(249, 10, 10);
+    border: 1px solid black;
+    --rotate:0;
+    opacity: .6;
+    z-index: 5;
+}
+.needle-min{
+    --rotate:0;
+    width: 5px;
+    background-color: rgb(21, 198, 198);
+    height: 40%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 1px solid black;
+    opacity: .6;
+    z-index: 7;
+}
+.needle-sec{
+    --rotate:0;
+    background-color: black;
+    height: 40%;
+    width: 3px;
+    opacity: .8;
+    z-index: 8;
+}
+.needle-back{
+    height: 10%;
+    width: 4px;
+    opacity: .8;
+    top:50%;
+    background-color: black;
+    transform-origin: top;
+    z-index: 8;
+    --rotate:30;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+   
+}

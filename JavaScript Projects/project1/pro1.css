@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,300;0,600;1,300&display=swap');
+*{
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:url("/images/pexels-klub-boks-9940112.jpg");
+    background-size: cover;
+    color: #fff;
+    margin-top: 10px;
+    background-position: center;
+    
+}
+.count{
+    padding-bottom: 25px;
+   font-family: "Chewy";
+}
+    
+.new{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    flex-direction: row;
+    justify-content: center;
+}
+.begin{
+    font-size: 20px;
+    font-family: "Inspiration";
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box small{
+    font-size: 15px;
+}
+
+@media (min-width:567px) {
+    .new{
+        font-size: 60px;
+    }
+    body{
+        font-size: 30px;
+    }
+    .begin{
+        font-size: 60px;
+    }
+    .count{
+        padding-bottom: 50px;
+    }
+    .box small{
+        font-size: 50px;
+    }
+    
+}
