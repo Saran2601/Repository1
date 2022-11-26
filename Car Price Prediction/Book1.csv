@@ -1,0 +1,7 @@
+Car_Name,Year,Selling_Price,Present_Price,Kms_Driven,Fuel_Type,Seller_Type,Transmission,Owner
+honda,2014,3.35,5.25,2700,Petrol,Individual,Manual,0
+hundai,2013,4.45,5.25,4300,Diesel,Dealer,Manual,0
+suzuki,2017,2.65,3.75,6000,Petrol,Individual,Automatic,0
+bmw,2011,1.5,2.5,5200,Diesel,Dealer,Manual,0
+tata,2014,3,4.5,7000,Petrol,Dealer,Automatic,0
+totyota,2015,4.5,5.75,5600,Petrol,Dealer,Manual,0
